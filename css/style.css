@@ -75,7 +75,7 @@ button:focus {
 
 .white_bg {
   background: #fff !important; }
-
+.text-primary{color: #002347!important;}
 .mt-100 {
   margin-top: 100px; }
   @media (max-width: 991px) {
@@ -507,6 +507,7 @@ font-weight: bold;
       padding-bottom: 40px; } }
 
 .single_feature {
+  text-align: center;
   position: relative;
   background: #f9f9ff;
   padding: 40px 36px;
@@ -517,9 +518,11 @@ font-weight: bold;
   transition: all 0.3s ease 0s; }
   @media (max-width: 480px) {
     .single_feature {
+      text-align: center;
       padding: 40px 20px; } }
-  .single_feature .icon span {
-    font-size: 30px; }
+  .single_feature .icon i {
+    font-size: 30px; 
+  }
   .single_feature h4 {
     font-size: 20px;
     font-weight: 500; }

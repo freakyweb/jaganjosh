@@ -66,7 +66,7 @@
 .ti-settings:before {
 	content: "\e60f";
 }
-.ti-search:before {
+.  bi bi-search-heart:before {
 	content: "\e610";
 }
 .ti-zoom-in:before {
